@@ -1,0 +1,32 @@
+.shop_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.shop_kasse {
+  width: 270px;
+}
+
+.shop_kasse img {
+  max-width: 100%;
+  height: 280px;
+}
+
+.kasse_tekst {
+  margin: 10px;
+  background-color: #decbb4;
+  padding: 15px;
+}
+
+.kategorier {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.kategorier img {
+  width: 200px;
+}
