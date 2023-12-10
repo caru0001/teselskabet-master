@@ -26,25 +26,31 @@ footer {
 
 /* TEKST START*/
 h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #433524;
   font-size: 2rem;
 }
 
 h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #433524;
   font-size: 1.5rem;
 }
 
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #433524;
+  font-size: 1rem;
+}
+
 p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #433524;
   font-size: 1rem;
 }
 
 a {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #433524;
   font-size: 1rem;
 }

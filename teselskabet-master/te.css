@@ -25,17 +25,20 @@
 .shop_grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 10px;
+  align-content: start;
 }
 
 .shop_kasse {
-  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .shop_kasse img {
-  max-width: 100%;
-  height: 280px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .kasse_tekst {
@@ -114,4 +117,79 @@
 
 .sorter_tekst {
   margin-right: 1.2rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container1 {
+  width: 20%;
+  padding: 145px 0;
+}
+
+.container2 {
+  width: 80%;
+  padding: 0 0 0 20px;
+}
+
+.filtre {
+  font-weight: 300;
+}
+
+.filter_tekst {
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+}
+
+.filter_tekst img {
+  margin-left: auto;
+}
+
+.sider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side_numre {
+  display: inline;
+  border: 1px solid #433524;
+  padding: 6px 10px;
+}
+
+.pris {
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.footer_grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+  margin: 3rem;
+}
+
+footer {
+  font-weight: 300;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sociale_medier_ikoner {
+  display: flex;
+}
+
+.sociale_medier_ikoner img {
+  width: auto;
+  height: 55px;
+  margin-right: -15px;
+}
+
+.adresse {
+  margin-right: 7rem;
 }
